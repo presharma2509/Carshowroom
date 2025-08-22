@@ -4,11 +4,11 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css/pagination';
 // import 'App.css';
-import logo1 from '../assets/logoclient-1.png';
-import logo2 from '../assets/logoclient-2.png';
-import logo3 from '../assets/logoclient-3.png';
-import logo4 from '../assets/logoclient-4.png';  
-import logo5 from '../assets/logoclient-5.png';
+import logo1 from '../assets/logoclient1.png';
+import logo2 from '../assets/logoclient2.png';
+import logo3 from '../assets/logoclient3.png';
+import logo4 from '../assets/logoclient4.png';  
+import logo5 from '../assets/logoclient5.png';
 
 const Boxslide = () => {
   return (
