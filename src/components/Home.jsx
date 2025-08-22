@@ -12,7 +12,7 @@ import Home3 from '../files/Home3';
 import Showcar from '../files/Showcar';
 import Subscribe from '../files/Subscribe';
 import Footers from '../files/Footers';
-
+import carbox from '../assets/carbox.jpeg';
 
 const Home = () => {
   useGSAP(() => {
@@ -43,7 +43,7 @@ const Home = () => {
         <div className='box flex flex-col items-center justify-center  w-96 mt-[550px] '>
           
           <div className=' w-80 '>
-                  <img className='w-96 rounded-lg border-1 border-white' src="src/assets/carbox.jpeg" alt="" />
+                  <img className='w-96 rounded-lg border-1 border-white' src={carbox} alt="carbox" />
                  <div className=' text-white mt-2  p-5 flex text-lg font-sans border-1 border-white rounded-lg '><p className=' pr-40'>Car Details </p>
                   <button className=' bg-red-600 px-1'><RxTriangleRight /></button>
                   </div>

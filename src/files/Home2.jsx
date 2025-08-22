@@ -4,7 +4,7 @@ import { FaKey } from "react-icons/fa";
 import { MdAccessTimeFilled } from "react-icons/md";
 import { FaShieldAlt } from "react-icons/fa";
 import { FaStar } from "react-icons/fa6";
-
+import car6 from '../assets/car6.jpg'
 
 
 const Home2 = () => {
@@ -62,7 +62,7 @@ const Home2 = () => {
 
         {/* rightbox */}
         <div className='flex flex-col gap-5 h-screen w-1/2 p-10 font-sans'>
-            <img className='rounded-xl h-[100%]' src="src/assets/car6.jpg" alt="" />
+            <img className='rounded-xl h-[100%]' src={car6} alt="car6" />
             <p className='text-zinc-400 '>Tellus sed sed odio enim sem mauris mattis. Pellentesque aliquet integer non neque id. Ac nisl imperdiet tellus placerat venenatis. Habitant ullamcorper ornare est arcu elit pellentesque.</p>
               <button className='w-52 py-3 rounded-full font-medium font-sans text-lg text-black bg-red-500'>Discover Our Story</button>
         </div>

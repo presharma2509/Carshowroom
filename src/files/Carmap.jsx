@@ -2,6 +2,7 @@ import React from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaShieldAlt } from "react-icons/fa";
 import { GrNotes } from "react-icons/gr";
+import productcar from '../assets/productcar.jpg';
 
 const Carmap = () => {
   return (
@@ -83,8 +84,8 @@ const Carmap = () => {
 
         <img
           className="h-screen w-full overflow-hidden"
-          src="src/assets/productcar.jpg"
-          alt=""
+          src={productcar}
+          alt="productcar"
         />
       </div>
     </>

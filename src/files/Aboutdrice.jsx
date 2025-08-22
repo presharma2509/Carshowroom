@@ -2,13 +2,14 @@ import React from "react";
 import { TfiLayoutLineSolid } from "react-icons/tfi";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaCompass } from "react-icons/fa";
+import driver from '../assets/driver.jpg';
 
 const Aboutdrice = () => {
   return (
     <>
       <div className="flex gap-20  h-screen w-full justify-center items-center bg-zinc-950">
         <div>
-          <img className="rounded-xl" src="src/assets/driver.jpg" alt="" />
+          <img className="rounded-xl" src={driver} alt="driver" />
         </div>
         <div>
           <div>

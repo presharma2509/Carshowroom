@@ -1,4 +1,5 @@
 import React from "react";
+import bgcar from '../assets/bgcar.jpg';
 
 const Showcar = () => {
   return (
@@ -14,7 +15,7 @@ const Showcar = () => {
           </p>
           <button className="bg-red-500 text-white rounded-full px-5 py-1 m-8 hover:bg-black text-lg font-semibold">Browse Our Cars</button>
         </div>
-        <img className="h-screen w-full overflow-hidden" src="src/assets/bg-car.jpg" alt="" />
+        <img className="h-screen w-full overflow-hidden" src={bgcar} alt="bg-car" />
       </div>
     </>
   );

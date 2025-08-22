@@ -3,6 +3,7 @@ import { TfiLayoutLineSolid } from "react-icons/tfi";
 import { MdAccessTimeFilled } from "react-icons/md";
 import { IoCallSharp } from "react-icons/io5";
 import { FaAt } from "react-icons/fa";
+import car6 from '../assets/car6.jpg';
 
 const CarContact = () => {
   return (
@@ -73,7 +74,7 @@ const CarContact = () => {
 
           {/* rightbox */}
           <div className="flex flex-col gap-5  w-1/2  font-sans">
-            <img className="rounded-xl h-[700px] w-[600px]" src="src/assets/car6.jpg" alt="" />
+            <img className="rounded-xl h-[700px] w-[600px]" src={car6} alt="car6" />
           </div>
         </div>
       </div>

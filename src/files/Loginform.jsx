@@ -1,5 +1,6 @@
 import React from "react";
 import { TfiLayoutLineSolid } from "react-icons/tfi";
+import logincar from '../assets/logincar.jpg';
 
 const Loginform = () => {
   return (
@@ -129,8 +130,8 @@ const Loginform = () => {
           {/* formend */}
         </div>
         <img
-          src="src/assets/logincar.jpg"
-          alt=""
+          src={logincar}
+          alt="logincar"
           className=" h-full w-screen"
         />
       </div>

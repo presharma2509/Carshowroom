@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCheck } from "react-icons/fa6";
+import productcar from '../assets/productcar.jpg';
 
 const Pricecar = () => {
   return (
@@ -179,8 +180,8 @@ const Pricecar = () => {
 
         <img
           className="h-screen w-full overflow-hidden"
-          src="src/assets/productcar.jpg"
-          alt=""
+          src={productcar}
+          alt="productcar"
         />
       </div>
     </>

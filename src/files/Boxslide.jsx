@@ -4,6 +4,11 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css/pagination';
 // import 'App.css';
+import logo1 from '../assets/logo-Client-1.png';
+import logo2 from '../assets/logo-Client-2.png';
+import logo3 from '../assets/logo-Client-3.png';
+import logo4 from '../assets/logo-Client-4.png';  
+import logo5 from '../assets/logo-Client-5.png';
 
 const Boxslide = () => {
   return (
@@ -22,16 +27,16 @@ const Boxslide = () => {
           modules={[Autoplay]}
           className="mySwiper p-10 pl-10"
         >
-          <SwiperSlide><img src="src/assets/Logo-Client-1.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="src/assets/Logo-Client-2.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="src/assets/Logo-Client-3.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="src/assets/Logo-Client-4.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="src/assets/Logo-Client-5.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="src/assets/Logo-Client-1.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="src/assets/Logo-Client-2.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="src/assets/Logo-Client-3.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="src/assets/Logo-Client-4.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="src/assets/Logo-Client-5.png" alt="" /></SwiperSlide>
+          <SwiperSlide><img src={logo1} alt="logo1" /></SwiperSlide>
+          <SwiperSlide><img src={logo2} alt="logo2" /></SwiperSlide>
+          <SwiperSlide><img src={logo3} alt="logo3" /></SwiperSlide>
+          <SwiperSlide><img src={logo4} alt="logo4" /></SwiperSlide>
+          <SwiperSlide><img src={logo5} alt="logo5" /></SwiperSlide>
+          <SwiperSlide><img src={logo1} alt="logo1" /></SwiperSlide>
+          <SwiperSlide><img src={logo2} alt="logo2" /></SwiperSlide>
+          <SwiperSlide><img src={logo3} alt="logo3" /></SwiperSlide>
+          <SwiperSlide><img src={logo4} alt="logo4" /></SwiperSlide>
+          <SwiperSlide><img src={logo5} alt="logo5" /></SwiperSlide>
         </Swiper>
       </div>
     </>

@@ -1,6 +1,7 @@
 import React from "react";
 import { TfiLayoutLineSolid } from "react-icons/tfi";
 import { RiDoubleQuotesL } from "react-icons/ri";
+import futurecar from '../assets/futurecar.jpg';
 
 const Futurecar = () => {
   return (
@@ -43,8 +44,8 @@ const Futurecar = () => {
 
         </div>
         <img
-          src="src/assets/futurecar.jpg"
-          alt=""
+          src={futurecar}
+          alt="futurecar"
           className=" h-full w-screen"
         />
       </div>

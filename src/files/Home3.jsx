@@ -2,13 +2,13 @@ import React from "react";
 import { TfiLayoutLineSolid } from "react-icons/tfi";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaCompass } from "react-icons/fa";
-
+import drive from '../assets/drive.jpg'
 const Home3 = () => {
   return (
     <>
       <div className="flex gap-20  h-screen w-full justify-center items-center bg-zinc-950">
         <div>
-          <img className="rounded-xl" src="src/assets/drive.jpg" alt="" />
+          <img className="rounded-xl" src={drive} alt="drive" />
         </div>
         <div>
           <div>

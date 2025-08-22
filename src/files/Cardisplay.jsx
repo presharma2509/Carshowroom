@@ -1,5 +1,11 @@
 import React from "react";
 import { TfiLayoutLineSolid } from "react-icons/tfi";
+import boxcar1 from '../assets/boxcar1.jpg';
+import boxcar2 from '../assets/boxcar2.jpg';
+import boxcar3 from '../assets/boxcar3.jpg';
+import boxcar4 from '../assets/boxcar4.jpg';
+import boxcar5 from '../assets/boxcar5.jpg';
+import boxcar6 from '../assets/boxcar6.jpg';
 
 const Cardisplay = () => {
   return (
@@ -41,7 +47,7 @@ const Cardisplay = () => {
                 <p className="text-[12px]">Rent Price</p>
                 <p className="text-[25px] font-bold">$720/day</p>
               </div>{" "}
-              <img className="rounded-xl" src="src/assets/boxcar1.jpg" alt="" />
+              <img className="rounded-xl" src={boxcar1} alt="boxcar1" />
             </div>
             <div className="relative">
               <div className="absolute p-5 text-white">
@@ -50,7 +56,7 @@ const Cardisplay = () => {
                 <p className="text-[12px]">Rent Price</p>
                 <p className="text-[25px] font-bold">$720/day</p>
               </div>{" "}
-              <img className="rounded-xl" src="src/assets/boxcar2.jpg" alt="" />
+              <img className="rounded-xl" src={boxcar2} alt="boxcar2" />
             </div>
             <div className="relative">
               <div className="absolute p-5 text-white">
@@ -59,7 +65,7 @@ const Cardisplay = () => {
                 <p className="text-[12px]">Rent Price</p>
                 <p className="text-[25px] font-bold">$720/day</p>
               </div>{" "}
-              <img className="rounded-xl" src="src/assets/boxcar3.jpg" alt="" />
+              <img className="rounded-xl" src={boxcar3} alt="boxcar3" />
             </div>
           </div>
           <div className="flex  gap-7">
@@ -70,7 +76,7 @@ const Cardisplay = () => {
                 <p className="text-[12px]">Rent Price</p>
                 <p className="text-[25px] font-bold">$720/day</p>
               </div>{" "}
-              <img className="rounded-xl" src="src/assets/boxcar4.jpg" alt="" />
+              <img className="rounded-xl" src={boxcar4} alt="boxcar4" />
             </div>
             <div className="relative">
               <div className="absolute p-5 text-white">
@@ -79,7 +85,7 @@ const Cardisplay = () => {
                 <p className="text-[12px]">Rent Price</p>
                 <p className="text-[25px] font-bold">$720/day</p>
               </div>{" "}
-              <img className="rounded-xl" src="src/assets/boxcar5.jpg" alt="" />
+              <img className="rounded-xl" src={boxcar5} alt="boxcar5" />
             </div>
             <div className="relative">
               <div className="absolute p-5 text-white">
@@ -88,7 +94,7 @@ const Cardisplay = () => {
                 <p className="text-[12px]">Rent Price</p>
                 <p className="text-[25px] font-bold">$720/day</p>
               </div>{" "}
-              <img className="rounded-xl" src="src/assets/boxcar6.jpg" alt="" />
+              <img className="rounded-xl" src={boxcar6} alt="boxcar6" />
             </div>
           </div>
         </div>
