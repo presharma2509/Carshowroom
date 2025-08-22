@@ -8,7 +8,7 @@ import logo1 from '../assets/Logoclient1.png';
 import logo2 from '../assets/Logoclient2.png';
 import logo3 from '../assets/Logoclient3.png';
 import logo4 from '../assets/Logoclient4.png';  
-import logo5 from '../assets/Logoclient5.png';
+// import logo5 from '../assets/Logoclient5.png';
 
 const Boxslide = () => {
   return (
@@ -31,12 +31,12 @@ const Boxslide = () => {
           <SwiperSlide><img src={logo2} alt="logo2" /></SwiperSlide>
           <SwiperSlide><img src={logo3} alt="logo3" /></SwiperSlide>
           <SwiperSlide><img src={logo4} alt="logo4" /></SwiperSlide>
-          <SwiperSlide><img src={logo5} alt="logo5" /></SwiperSlide>
+          {/* <SwiperSlide><img src={logo5} alt="logo5" /></SwiperSlide> */}
           <SwiperSlide><img src={logo1} alt="logo1" /></SwiperSlide>
           <SwiperSlide><img src={logo2} alt="logo2" /></SwiperSlide>
           <SwiperSlide><img src={logo3} alt="logo3" /></SwiperSlide>
           <SwiperSlide><img src={logo4} alt="logo4" /></SwiperSlide>
-          <SwiperSlide><img src={logo5} alt="logo5" /></SwiperSlide>
+          {/* <SwiperSlide><img src={logo5} alt="logo5" /></SwiperSlide> */}
         </Swiper>
       </div>
     </>
